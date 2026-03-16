@@ -53,4 +53,4 @@ LEFT JOIN `nantipat-olist-project.olist_raw.products` AS p ON i.product_id = p.p
 WHERE o.order_status = 'delivered'
   AND o.order_delivered_customer_date IS NOT NULL;
 
--- After created table, i've move to work in python on Google Colab to do more deep EDA and analysis.
+-- After created table, i've move to work in python on Google Colab to do more deep data cleaning and data analysis.
