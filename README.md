@@ -26,6 +26,8 @@ The analysis is based on the **Brazilian E-Commerce Public Dataset by Olist**, t
 ### Data Relational Map
 The dataset consists of 9 relational tables. Understanding the primary keys (e.g., `order_id`, `customer_id`) is crucial for joining the tables correctly in BigQuery/Python.
 
+![Schema Preview](images/olist_data_schema.png)
+
 ---
 
 ## 💡 Key Business Insights
