@@ -17,6 +17,17 @@ The workflow spans the entire data lifecycle:
 
 ---
 
+## 📊 Data Source & Schema
+The analysis is based on the **Brazilian E-Commerce Public Dataset by Olist**, the largest department store in Brazilian marketplaces.
+* **Source:** [Kaggle - Olist Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+* **Dataset Period:** 2016 to 2018
+* **Data Context:** This is real commercial data that has been anonymized. It includes 100k orders with features such as order status, price, payment, freight performance, customer location, and product attributes.
+
+### Data Relational Map
+The dataset consists of 9 relational tables. Understanding the primary keys (e.g., `order_id`, `customer_id`) is crucial for joining the tables correctly in BigQuery/Python.
+
+---
+
 ## 💡 Key Business Insights
 
 ### 1. Revenue & Market Demand
